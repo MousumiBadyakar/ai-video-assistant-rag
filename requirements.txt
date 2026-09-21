@@ -3,7 +3,8 @@
 
 # ── Audio / Video Processing ────────────────────────────────────────────────
 
-yt-dlp>=2024.4.9
+yt-dlp[default]>=2024.4.9
+deno>=2.6.0
 pydub>=0.25.1
 ffmpeg-python>=0.2.0
 
