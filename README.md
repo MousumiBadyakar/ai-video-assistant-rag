@@ -2,7 +2,11 @@
 
 An AI-powered meeting assistant that converts video/audio content into **transcripts, summaries, action items, key decisions, open questions, and RAG-based answers**.
 
-The project combines **Whisper, Sarvam AI, Mistral AI, LangChain, HuggingFace embeddings, and ChromaDB** to build an end-to-end meeting intelligence pipeline.
+The project combines *OpenAI Whisper, Sarvam AI, OpenRouter, LangChain, HuggingFace embeddings, and ChromaDB** to build an end-to-end meeting intelligence pipeline.
+
+## 🚀 Live Demo
+
+🔗 **[Try the AI Video Assistant](https://ai-video-assistant-rag-bzdqcspuvayber2p3saiw6.streamlit.app/)**
 
 ## ✨ Features
 
@@ -71,7 +75,7 @@ Meeting Transcript
 
 **Language:** Python
 
-**GenAI / LLM:** Mistral AI, LangChain
+**GenAI / LLM:** OpenRouter, LangChain
 
 **Speech-to-Text:** OpenAI Whisper, Sarvam AI
 
@@ -138,7 +142,7 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-MISTRAL_API_KEY=your_mistral_api_key
+OPENROUTER_API_KEY=your_openrouter_api_key
 SARVAM_API_KEY=your_sarvam_api_key
 ```
 
