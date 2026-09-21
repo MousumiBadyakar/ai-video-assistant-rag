@@ -1,6 +1,7 @@
 import yt_dlp
 from pydub import AudioSegment
 import os
+import deno
 
 DOWNLOAD_DIR = 'downloads'
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -13,7 +14,9 @@ def download_youtube_audio(url: str) -> str:
         "outtmpl": output_path,
         
         "js_runtimes": {
-            "deno": {}
+            "deno": {
+                "path": deno.find_deno_bin()
+             }
         },
 
         "postprocessors": [
