@@ -2,7 +2,7 @@
 
 An AI-powered meeting assistant that converts video/audio content into **transcripts, summaries, action items, key decisions, open questions, and RAG-based answers**.
 
-The project combines *OpenAI Whisper, Sarvam AI, OpenRouter, LangChain, HuggingFace embeddings, and ChromaDB** to build an end-to-end meeting intelligence pipeline.
+The project combines *OpenAI Whisper, Sarvam AI, OpenRouter, LangChain, HuggingFace embeddings, and ChromaDB* to build an end-to-end meeting intelligence pipeline.
 
 ## 🚀 Live Demo
 
