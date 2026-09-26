@@ -8,6 +8,10 @@ The project combines *OpenAI Whisper, Sarvam AI, OpenRouter, LangChain, HuggingF
 
 🔗 **[Try the AI Video Assistant](https://ai-video-assistant-rag-bzdqcspuvayber2p3saiw6.streamlit.app/)**
 
+## 💼 LinkedIn Post
+
+📢 **[View the LinkedIn post about this project](https://www.linkedin.com/feed/update/urn:li:activity:7508224103376592896/)**
+
 ## ✨ Features
 
 * 🎙️ **Speech-to-Text** — English transcription using OpenAI Whisper.
